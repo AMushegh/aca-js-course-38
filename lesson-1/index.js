@@ -4,7 +4,7 @@ let sum = 0;
 
 for (let i = 0; i < arrayEx1.length; i++) {
   if (arrayEx1[i] % 2 === 1) {
-    arrayEx1;
+    sum += arrayEx1[i];
   }
 }
 
