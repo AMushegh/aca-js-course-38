@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+header {
+  background-color: aqua;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin: 8px 16px;
+}
+
+.container {
+  width: 80%;
+  margin: 24px auto;
+}
+
+.header-container {
+  width: 90%;
+  margin: auto;
+}
+
+main ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+main ul li {
+  width: 100px;
+  height: 100px;
+  border-radius: 4px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
